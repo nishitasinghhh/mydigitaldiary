@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom'
+import {HashRouter as Router,Routes,Route,Link} from 'react-router-dom'
 import './App.css';
 import {auth} from '/Users/nishitasingh/Desktop/mydigitaldiary/src/firebase-config.js'
 import Home from './pages/Home';
