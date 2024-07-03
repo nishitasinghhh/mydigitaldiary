@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom'
 import './App.css';
-import {auth} from '/Users/nishitasingh/Desktop/mydigitaldiary/src/firebase-config.js'
+
 import Home from './pages/Home';
 import CreatePost from './pages/CreatePost';
 import Login from './pages/Login';
 import { useState } from 'react';
+import {auth} from './firebase-config'
 import {signOut} from 'firebase/auth'
 
 
