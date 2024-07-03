@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import {getDocs,collection, deleteDoc,doc} from 'firebase/firestore'
-import { auth,db } from '/Users/nishitasingh/Desktop/mydigitaldiary/src/firebase-config.js';
+import {auth, db} from '../firebase-config'
+
+
 function Home({isAuth}) {
   const [postLists,setPostList]=useState([]);
   const postCollectionRef=collection(db,"posts")

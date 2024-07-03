@@ -1,5 +1,6 @@
 import React from 'react'
-import {auth,provider} from '/Users/nishitasingh/Desktop/mydigitaldiary/src/firebase-config.js'
+import {auth,provider} from '../firebase-config'
+
 import { signInWithPopup } from 'firebase/auth'
 import {useNavigate} from 'react-router-dom'
 function Login({setIsAuth}) {
